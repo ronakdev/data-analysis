@@ -55,9 +55,9 @@ function generateOverviewMap() {
     // Load in ap scores data
     d3.csv("https://ronakshah.net/collegeboard-stats/csv/apscoresbystate.csv", function (scoredata) {
         color.domain([0, 1, 2, 3]); // setting the range of the input data
-        // Load in ap participation data
-        d3.csv("https://ronakshah.net/collegeboard-stats/csv/participationdata.csv", function (partdata) {
-
+        // Load in drug death data
+        d3.csv("../drugdeaths.csv", function (drugDeathData) {
+            console.log(drugDeathData)
             // Load GeoJSON data and merge with states data
             d3.json("https://ronakshah.net/collegeboard-stats/json/us-states.json", function (json) {
 
@@ -85,29 +85,29 @@ function generateOverviewMap() {
                     }
                 }
 
-                // Look through each state's participation data value in the .csv file
-                for (var i = 0; i < partdata.length; i++) {
+                // // Look through each state's participation data value in the .csv file
+                // for (var i = 0; i < partdata.length; i++) {
 
-                    // Grab State Name
-                    var dataState = partdata[i].state;
+                //     // Grab State Name
+                //     var dataState = partdata[i].state;
 
-                    // Grab data value 
-                    var dataValue = partdata[i].participation;
+                //     // Grab data value 
+                //     var dataValue = partdata[i].participation;
 
-                    // Find the corresponding state inside the GeoJSON
-                    for (var j = 0; j < json.features.length; j++) {
-                        var jsonState = json.features[j].properties.name;
+                //     // Find the corresponding state inside the GeoJSON
+                //     for (var j = 0; j < json.features.length; j++) {
+                //         var jsonState = json.features[j].properties.name;
 
-                        if (dataState == jsonState) {
+                //         if (dataState == jsonState) {
 
-                            // Copy the data value into the JSON
-                            json.features[j].properties.participation = dataValue;
+                //             // Copy the data value into the JSON
+                //             json.features[j].properties.participation = dataValue;
 
-                            // Stop looking through the JSON
-                            break;
-                        }
-                    }
-                }
+                //             // Stop looking through the JSON
+                //             break;
+                //         }
+                //     }
+                // }
 
                 // Bind the data to the SVG and create one path per GeoJSON feature
                 svg.selectAll("path")
@@ -127,7 +127,7 @@ function generateOverviewMap() {
                             //If value exists…
                             score = parseFloat(score.replace("%", ""));
                             part = parseInt(part.replace(",", ""));
-                            var partLevel = evaluatePartLevel(part) + 1;
+                            var partLevel = part + 1;
 
                             if (partLevel <= 3 && score > 50) {
                                 return "rgb(68, 138, 255)";
@@ -168,45 +168,6 @@ function generateOverviewMap() {
                             .style("opacity", 0);
                     });
 
-                /*
-                // Map the cities I have lived in!
-                d3.csv("../csv/cities-lived.csv", function(data) {
-
-                svg.selectAll("circle")
-                    .data(data)
-                    .enter()
-                    .append("circle")
-                    .attr("cx", function(d) {
-                        return projection([d.lon, d.lat])[0];
-                    })
-                    .attr("cy", function(d) {
-                        return projection([d.lon, d.lat])[1];
-                    })
-                    .attr("r", function(d) {
-                        return Math.sqrt(d.years) * 4;
-                    })
-                        .style("fill", "rgb(217,91,67)")	
-                        .style("opacity", 0.85)	
-
-                    // Modification of custom tooltip code provided by Malcolm Maclean, "D3 Tips and Tricks" 
-                    // http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html
-                    .on("mouseover", function(d) {      
-                        div.transition()        
-                           .duration(200)      
-                           .style("opacity", .9);      
-                           div.text(d.place)
-                           .style("left", (d3.event.pageX) + "px")     
-                           .style("top", (d3.event.pageY - 28) + "px");    
-                    })   
-
-                    // fade out tooltip on mouse out               
-                    .on("mouseout", function(d) {       
-                        div.transition()        
-                           .duration(500)      
-                           .style("opacity", 0);   
-                    });
-                });  
-                */
                 // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
                 var legend = d3.select(divTarget).append("svg")
                     .attr("class", "legend")
