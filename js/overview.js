@@ -56,34 +56,25 @@ function generateOverviewMap() {
     d3.csv("https://ronakshah.net/collegeboard-stats/csv/apscoresbystate.csv", function (scoredata) {
         color.domain([0, 1, 2, 3]); // setting the range of the input data
         // Load in drug death data
-        d3.csv("../drugdeaths.csv", function (drugDeathData) {
-            console.log(drugDeathData)
+        d3.csv("https://raw.githubusercontent.com/ronakdev/data-analysis/master/json/drugdeaths.csv", function (drugData) {
+            console.log(drugData)
             // Load GeoJSON data and merge with states data
             d3.json("https://ronakshah.net/collegeboard-stats/json/us-states.json", function (json) {
 
-                // Loop through each state's score data value in the .csv file
-                for (var i = 0; i < scoredata.length; i++) {
 
-                    // Grab State Name
-                    var dataState = scoredata[i].state;
+                json.features.forEach((element, index) => {
+                  // element.properties.name == "South Dakota"
+                  // drugData[some element]['State Name'] == "South Dakota"
+                  let state = element.properties.name
+                  let drugStateIndex = drugData.findIndex( item => item['State Name'] == state )
+                  if (drugStateIndex != -1) {
+                    let drugState = drugData[drugStateIndex]
+                    element.properties['deaths'] = drugState['Data Value']
+                    console.log(drugState)
+                    element.properties['population'] = drugState['population']
+                  }
+                });
 
-                    // Grab data value 
-                    var dataValue = scoredata[i].percentage;
-
-                    // Find the corresponding state inside the GeoJSON
-                    for (var j = 0; j < json.features.length; j++) {
-                        var jsonState = json.features[j].properties.name;
-
-                        if (dataState == jsonState) {
-
-                            // Copy the data value into the JSON
-                            json.features[j].properties.percentage = dataValue;
-
-                            // Stop looking through the JSON
-                            break;
-                        }
-                    }
-                }
 
                 // // Look through each state's participation data value in the .csv file
                 // for (var i = 0; i < partdata.length; i++) {
@@ -118,41 +109,22 @@ function generateOverviewMap() {
                     .style("stroke", "#fff")
                     .style("stroke-width", "1")
                     .style("fill", function (d) {
-
+                        console.log(d.properties)
                         // Get data value
-                        var score = d.properties.percentage;
-                        var part = d.properties.participation;
-
-                        if (score && part) {
-                            //If value exists…
-                            score = parseFloat(score.replace("%", ""));
-                            part = parseInt(part.replace(",", ""));
-                            var partLevel = part + 1;
-
-                            if (partLevel <= 3 && score > 50) {
-                                return "rgb(68, 138, 255)";
-                            } else if (partLevel <= 3 && score <= 50) {
-                                return "rgb(0,51,102)";
-                            } 
-                            else if (partLevel > 3 && score > 50) {
-                                return "green";
-                            }
-                            else if (partLevel > 3 && score < 50) {
-                                return "violet";
-                            }
-                            else {
-                                return "rgb(213,222,217)";
-                            }
-                            
-                            
+                        let population = d.properties.population
+                        let deaths = d.properties.deaths
+                        
+                        if (population && deaths) {
+                            // code here
+                            return "#000"
                         } else {
                             //If value is undefined…
                             return "rgb(213,222,217)";
                         }
-
                     })
                     .on("mouseover", function (d) {
-                        var text = "Population of " + d.properties.participation + " and around " + d.properties.percentage + " got a 3 or higher";
+                        let text = `${d.properties.population} has ${d.properties.deaths} deaths, the ratio is ${d.properties.deaths / 1000000}`
+
                         div.transition()
                             .duration(200)
                             .style("opacity", .9);

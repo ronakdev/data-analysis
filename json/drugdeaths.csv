@@ -1,52 +1,54 @@
-﻿State,Year,Month,Period,Indicator,Data Value,Percent Complete,Percent Pending Investigation,State Name,Footnote,Footnote Symbol,Predicted Value
-AK,2015,January,12 month-ending,Number of Drug Overdose Deaths,126,100,0,Alaska,Numbers may differ from published reports using final data. See Technical Notes.,**,127
-AL,2015,January,12 month-ending,Number of Drug Overdose Deaths,715,100,0.33708092,Alabama,Numbers may differ from published reports using final data. See Technical Notes.,**,751
-AR,2015,January,12 month-ending,Number of Drug Overdose Deaths,366,100,0.04979749,Arkansas,Numbers may differ from published reports using final data. See Technical Notes.,**,370
-AZ,2015,January,12 month-ending,Number of Drug Overdose Deaths,1193,100,0.32669749,Arizona,Numbers may differ from published reports using final data. See Technical Notes.,**,1251
-CA,2015,January,12 month-ending,Number of Drug Overdose Deaths,4603,100,0.238123058,California,Numbers may differ from published reports using final data. See Technical Notes.,**,4766
-CO,2015,January,12 month-ending,Number of Drug Overdose Deaths,923,100,0.01930289,Colorado,Numbers may differ from published reports using final data. See Technical Notes.,**,927
-CT,2015,January,12 month-ending,Number of Drug Overdose Deaths,631,100,0.009926872,Connecticut,Numbers may differ from published reports using final data. See Technical Notes.,**,633
-DC,2015,January,12 month-ending,Number of Drug Overdose Deaths,113,100,0.107353731,District of Columbia,Numbers may differ from published reports using final data. See Technical Notes.,**,115
-DE,2015,January,12 month-ending,Number of Drug Overdose Deaths,210,100,0,Delaware,Numbers may differ from published reports using final data. See Technical Notes.,**,211
-FL,2015,January,12 month-ending,Number of Drug Overdose Deaths,2755,100,0.034889253,Florida,Numbers may differ from published reports using final data. See Technical Notes.,**,2773
-GA,2015,January,12 month-ending,Number of Drug Overdose Deaths,1206,100,0.087530732,Georgia,Numbers may differ from published reports using final data. See Technical Notes.,**,1223
-HI,2015,January,12 month-ending,Number of Drug Overdose Deaths,157,100,0.018138944,Hawaii,Numbers may differ from published reports using final data. See Technical Notes.,**,158
-IA,2015,January,12 month-ending,Number of Drug Overdose Deaths,274,100,0.013709429,Iowa,Numbers may differ from published reports using final data. See Technical Notes.,**,275
-ID,2015,January,12 month-ending,Number of Drug Overdose Deaths,209,100,0,Idaho,Numbers may differ from published reports using final data. See Technical Notes.,**,210
-IL,2015,January,12 month-ending,Number of Drug Overdose Deaths,1652,100,0.025229491,Illinois,Numbers may differ from published reports using final data. See Technical Notes.,**,1661
-IN,2015,January,12 month-ending,Number of Drug Overdose Deaths,1162,100,0.033776177,Indiana,Numbers may differ from published reports using final data. See Technical Notes.,**,1170
-KS,2015,January,12 month-ending,Number of Drug Overdose Deaths,312,100,0.031735957,Kansas,Numbers may differ from published reports using final data. See Technical Notes.,**,314
-KY,2015,January,12 month-ending,Number of Drug Overdose Deaths,1101,100,0.015586382,Kentucky,Numbers may differ from published reports using final data. See Technical Notes.,**,1106
-LA,2015,January,12 month-ending,Number of Drug Overdose Deaths,782,100,0.036281179,Louisiana,Numbers may differ from published reports using final data. See Technical Notes.,**,788
-MA,2015,January,12 month-ending,Number of Drug Overdose Deaths,1296,100,1.298997265,Massachusetts,Numbers may differ from published reports using final data. See Technical Notes.,**,1579
-MD,2015,January,12 month-ending,Number of Drug Overdose Deaths,1078,100,0.008585165,Maryland,Numbers may differ from published reports using final data. See Technical Notes.,**,1081
-ME,2015,January,12 month-ending,Number of Drug Overdose Deaths,213,100,0.058706979,Maine,Numbers may differ from published reports using final data. See Technical Notes.,**,216
-MI,2015,January,12 month-ending,Number of Drug Overdose Deaths,1796,100,0.045028625,Michigan,Numbers may differ from published reports using final data. See Technical Notes.,**,1810
-MN,2015,January,12 month-ending,Number of Drug Overdose Deaths,530,100,0,Minnesota,Numbers may differ from published reports using final data. See Technical Notes.,**,531
-MO,2015,January,12 month-ending,Number of Drug Overdose Deaths,1108,100,0.018061804,Missouri,Numbers may differ from published reports using final data. See Technical Notes.,**,1113
-MS,2015,January,12 month-ending,Number of Drug Overdose Deaths,302,100,0,Mississippi,Numbers may differ from published reports using final data. See Technical Notes.,**,303
-MT,2015,January,12 month-ending,Number of Drug Overdose Deaths,121,100,0.210482004,Montana,Numbers may differ from published reports using final data. See Technical Notes.,**,125
-NC,2015,January,12 month-ending,Number of Drug Overdose Deaths,1359,100,0.344305192,North Carolina,Numbers may differ from published reports using final data. See Technical Notes.,**,1429
-ND,2015,January,12 month-ending,Number of Drug Overdose Deaths,65,100,0.275882097,North Dakota,Numbers may differ from published reports using final data. See Technical Notes.,**,68
-NE,2015,January,12 month-ending,Number of Drug Overdose Deaths,121,100,0.006089763,Nebraska,Numbers may differ from published reports using final data. See Technical Notes.,**,122
-NH,2015,January,12 month-ending,Number of Drug Overdose Deaths,350,100,0.044083936,New Hampshire,Numbers may differ from published reports using final data. See Technical Notes.,**,353
-NJ,2015,January,12 month-ending,Number of Drug Overdose Deaths,1210,100,0.25916223,New Jersey,Numbers may differ from published reports using final data. See Technical Notes.,**,1257
-NM,2015,January,12 month-ending,Number of Drug Overdose Deaths,548,100,0.041053311,New Mexico,Numbers may differ from published reports using final data. See Technical Notes.,**,552
-NV,2015,January,12 month-ending,Number of Drug Overdose Deaths,578,100,0.004421062,Nevada,Numbers may differ from published reports using final data. See Technical Notes.,**,580
-NY,2015,January,12 month-ending,Number of Drug Overdose Deaths,1510,100,0.278684279,New York,Numbers may differ from published reports using final data. See Technical Notes.,**,1573
-OH,2015,January,12 month-ending,Number of Drug Overdose Deaths,2829,100,0.006037866,Ohio,Numbers may differ from published reports using final data. See Technical Notes.,**,2836
-OK,2015,January,12 month-ending,Number of Drug Overdose Deaths,794,100,0.021170742,Oklahoma,Numbers may differ from published reports using final data. See Technical Notes.,**,798
-OR,2015,January,12 month-ending,Number of Drug Overdose Deaths,520,100,0.023247704,Oregon,Numbers may differ from published reports using final data. See Technical Notes.,**,523
-PA,2015,January,12 month-ending,Number of Drug Overdose Deaths,2788,100,0.262862005,Pennsylvania,Numbers may differ from published reports using final data. See Technical Notes.,**,2897
-RI,2015,January,12 month-ending,Number of Drug Overdose Deaths,250,100,0.06923153,Rhode Island,Numbers may differ from published reports using final data. See Technical Notes.,**,253
-SC,2015,January,12 month-ending,Number of Drug Overdose Deaths,692,100,0.026734394,South Carolina,Numbers may differ from published reports using final data. See Technical Notes.,**,696
-SD,2015,January,12 month-ending,Number of Drug Overdose Deaths,60,100,0.038961039,South Dakota,Numbers may differ from published reports using final data. See Technical Notes.,**,61
-TN,2015,January,12 month-ending,Number of Drug Overdose Deaths,1296,100,0.164377982,Tennessee,Numbers may differ from published reports using final data. See Technical Notes.,**,1328
-TX,2015,January,12 month-ending,Number of Drug Overdose Deaths,2577,100,0.183968603,Texas,Numbers may differ from published reports using final data. See Technical Notes.,**,2648
-UT,2015,January,12 month-ending,Number of Drug Overdose Deaths,619,100,0.340981333,Utah,Numbers may differ from published reports using final data. See Technical Notes.,**,651
-VA,2015,January,12 month-ending,Number of Drug Overdose Deaths,959,100,0.037846532,Virginia,Numbers may differ from published reports using final data. See Technical Notes.,**,966
-VT,2015,January,12 month-ending,Number of Drug Overdose Deaths,76,100,0,Vermont,Numbers may differ from published reports using final data. See Technical Notes.,**,77
-WA,2015,January,12 month-ending,Number of Drug Overdose Deaths,996,100,0.007620935,Washington,Numbers may differ from published reports using final data. See Technical Notes.,**,999
-WI,2015,January,12 month-ending,Number of Drug Overdose Deaths,849,100,0.065142722,Wisconsin,Numbers may differ from published reports using final data. See Technical Notes.,**,858
-WV,2015,January,12 month-ending,Number of Drug Overdose Deaths,644,100,0.156451316,West Virginia,Numbers may differ from published reports using final data. See Technical Notes.,**,660
-WY,2015,January,12 month-ending,Number of Drug Overdose Deaths,105,100,0,Wyoming,Numbers may differ from published reports using final data. See Technical Notes.,**,106
+﻿State,Year,Month,Period,Indicator,Data Value,Percent Complete,Percent Pending Investigation,State Name,Footnote,Footnote Symbol,Predicted Value,population,density,changes,
+AL,2015,January,12 month-ending,Number of Drug Overdose Deaths,715,100,0.33708092,Alabama,Numbers may differ from published reports using final data. See Technical Notes.,**,751,4858979,92.7,0.329,
+AK,2015,January,12 month-ending,Number of Drug Overdose Deaths,126,100,0,Alaska,Numbers may differ from published reports using final data. See Technical Notes.,**,127,738432,1.1,0.782,
+AZ,2015,January,12 month-ending,Number of Drug Overdose Deaths,1193,100,0.32669749,Arizona,Numbers may differ from published reports using final data. See Technical Notes.,**,1251,6828065,59.9,1.329,
+AR,2015,January,12 month-ending,Number of Drug Overdose Deaths,366,100,0.04979749,Arkansas,Numbers may differ from published reports using final data. See Technical Notes.,**,370,2978204,56,0.424,
+CA,2015,January,12 month-ending,Number of Drug Overdose Deaths,4603,100,0.238123058,California,Numbers may differ from published reports using final data. See Technical Notes.,**,4766,39144818,239.1,0.995,
+CO,2015,January,12 month-ending,Number of Drug Overdose Deaths,923,100,0.01930289,Colorado,Numbers may differ from published reports using final data. See Technical Notes.,**,927,5456574,52.4,1.645,
+CT,2015,January,12 month-ending,Number of Drug Overdose Deaths,631,100,0.009926872,Connecticut,Numbers may differ from published reports using final data. See Technical Notes.,**,633,3590886,647.8,0.094,
+DE,2015,January,12 month-ending,Number of Drug Overdose Deaths,210,100,0,Delaware,Numbers may differ from published reports using final data. See Technical Notes.,**,211,945934,380.1,1.047,
+DC,2015,January,12 month-ending,Number of Drug Overdose Deaths,113,100,0.107353731,District of Columbia,Numbers may differ from published reports using final data. See Technical Notes.,**,115,672228,9836.5,2.241,
+FL,2015,January,12 month-ending,Number of Drug Overdose Deaths,2755,100,0.034889253,Florida,Numbers may differ from published reports using final data. See Technical Notes.,**,2773,20271272,308.3,1.517,
+GA,2015,January,12 month-ending,Number of Drug Overdose Deaths,1206,100,0.087530732,Georgia,Numbers may differ from published reports using final data. See Technical Notes.,**,1223,10214860,171.9,1.065,
+HI,2015,January,12 month-ending,Number of Drug Overdose Deaths,157,100,0.018138944,Hawaii,Numbers may differ from published reports using final data. See Technical Notes.,**,158,1431603,131,1.027,
+ID,2015,January,12 month-ending,Number of Drug Overdose Deaths,209,100,0,Idaho,Numbers may differ from published reports using final data. See Technical Notes.,**,210,1654930,19.8,1.09,
+IL,2015,January,12 month-ending,Number of Drug Overdose Deaths,1652,100,0.025229491,Illinois,Numbers may differ from published reports using final data. See Technical Notes.,**,1661,12859995,222.1,0.046,
+IN,2015,January,12 month-ending,Number of Drug Overdose Deaths,1162,100,0.033776177,Indiana,Numbers may differ from published reports using final data. See Technical Notes.,**,1170,6619680,181.8,0.416,
+IA,2015,January,12 month-ending,Number of Drug Overdose Deaths,274,100,0.013709429,Iowa,Numbers may differ from published reports using final data. See Technical Notes.,**,275,3123899,55.5,0.504,
+KS,2015,January,12 month-ending,Number of Drug Overdose Deaths,312,100,0.031735957,Kansas,Numbers may differ from published reports using final data. See Technical Notes.,**,314,2911641,35.4,0.407,
+KY,2015,January,12 month-ending,Number of Drug Overdose Deaths,1101,100,0.015586382,Kentucky,Numbers may differ from published reports using final data. See Technical Notes.,**,1106,4425092,109.5,0.392,
+LA,2015,January,12 month-ending,Number of Drug Overdose Deaths,782,100,0.036281179,Louisiana,Numbers may differ from published reports using final data. See Technical Notes.,**,788,4670724,89.2,0.599,
+ME,2015,January,12 month-ending,Number of Drug Overdose Deaths,213,100,0.058706979,Maine,Numbers may differ from published reports using final data. See Technical Notes.,**,216,1329328,37.6,0.015,
+MD,2015,January,12 month-ending,Number of Drug Overdose Deaths,1078,100,0.008585165,Maryland,Numbers may differ from published reports using final data. See Technical Notes.,**,1081,6006401,484.2,0.794,
+MA,2015,January,12 month-ending,Number of Drug Overdose Deaths,1296,100,1.298997265,Massachusetts,Numbers may differ from published reports using final data. See Technical Notes.,**,1579,6794422,643.8,0.743,
+MI,2015,January,12 month-ending,Number of Drug Overdose Deaths,1796,100,0.045028625,Michigan,Numbers may differ from published reports using final data. See Technical Notes.,**,1810,9922576,102.6,0.079,
+MN,2015,January,12 month-ending,Number of Drug Overdose Deaths,530,100,0,Minnesota,Numbers may differ from published reports using final data. See Technical Notes.,**,531,5489594,63.1,0.691,
+MS,2015,January,12 month-ending,Number of Drug Overdose Deaths,302,100,0,Mississippi,Numbers may differ from published reports using final data. See Technical Notes.,**,303,2992333,61.8,0.168,
+MO,2015,January,12 month-ending,Number of Drug Overdose Deaths,1108,100,0.018061804,Missouri,Numbers may differ from published reports using final data. See Technical Notes.,**,1113,6083672,87.3,0.314,
+MT,2015,January,12 month-ending,Number of Drug Overdose Deaths,121,100,0.210482004,Montana,Numbers may differ from published reports using final data. See Technical Notes.,**,125,1032949,7,0.865,
+NE,2015,January,12 month-ending,Number of Drug Overdose Deaths,121,100,0.006089763,Nebraska,Numbers may differ from published reports using final data. See Technical Notes.,**,122,1896190,24.5,0.753,
+NV,2015,January,12 month-ending,Number of Drug Overdose Deaths,578,100,0.004421062,Nevada,Numbers may differ from published reports using final data. See Technical Notes.,**,580,2890845,26.1,1.371,
+NH,2015,January,12 month-ending,Number of Drug Overdose Deaths,350,100,0.044083936,New Hampshire,Numbers may differ from published reports using final data. See Technical Notes.,**,353,1330608,142.3,0.214,
+NJ,2015,January,12 month-ending,Number of Drug Overdose Deaths,1210,100,0.25916223,New Jersey,Numbers may differ from published reports using final data. See Technical Notes.,**,1257,8958013,1027,0.375,
+NM,2015,January,12 month-ending,Number of Drug Overdose Deaths,548,100,0.041053311,New Mexico,Numbers may differ from published reports using final data. See Technical Notes.,**,552,2085109,17.1,0.251,
+NY,2015,January,12 month-ending,Number of Drug Overdose Deaths,1510,100,0.278684279,New York,Numbers may differ from published reports using final data. See Technical Notes.,**,1573,19795791,362.9,0.427,
+NC,2015,January,12 month-ending,Number of Drug Overdose Deaths,1359,100,0.344305192,North Carolina,Numbers may differ from published reports using final data. See Technical Notes.,**,1429,10042802,186.6,1.042,
+ND,2015,January,12 month-ending,Number of Drug Overdose Deaths,65,100,0.275882097,North Dakota,Numbers may differ from published reports using final data. See Technical Notes.,**,68,756927,10.7,2.391,
+OH,2015,January,12 month-ending,Number of Drug Overdose Deaths,2829,100,0.006037866,Ohio,Numbers may differ from published reports using final data. See Technical Notes.,**,2836,11613423,259.1,0.133,
+OK,2015,January,12 month-ending,Number of Drug Overdose Deaths,794,100,0.021170742,Oklahoma,Numbers may differ from published reports using final data. See Technical Notes.,**,798,3911338,56,0.839,
+OR,2015,January,12 month-ending,Number of Drug Overdose Deaths,520,100,0.023247704,Oregon,Numbers may differ from published reports using final data. See Technical Notes.,**,523,4028977,41,1.012,
+PA,2015,January,12 month-ending,Number of Drug Overdose Deaths,2788,100,0.262862005,Pennsylvania,Numbers may differ from published reports using final data. See Technical Notes.,**,2897,12802503,278,0.157,
+RI,2015,January,12 month-ending,Number of Drug Overdose Deaths,250,100,0.06923153,Rhode Island,Numbers may differ from published reports using final data. See Technical Notes.,**,253,1056298,683.7,0.071,
+SC,2015,January,12 month-ending,Number of Drug Overdose Deaths,692,100,0.026734394,South Carolina,Numbers may differ from published reports using final data. See Technical Notes.,**,696,4896146,152.9,1.144,
+SD,2015,January,12 month-ending,Number of Drug Overdose Deaths,60,100,0.038961039,South Dakota,Numbers may differ from published reports using final data. See Technical Notes.,**,61,858469,11.1,1.065,
+TN,2015,January,12 month-ending,Number of Drug Overdose Deaths,1296,100,0.164377982,Tennessee,Numbers may differ from published reports using final data. See Technical Notes.,**,1328,6600299,156.6,0.789,
+TX,2015,January,12 month-ending,Number of Drug Overdose Deaths,2577,100,0.183968603,Texas,Numbers may differ from published reports using final data. See Technical Notes.,**,2648,27469114,102.3,1.783,
+UT,2015,January,12 month-ending,Number of Drug Overdose Deaths,619,100,0.340981333,Utah,Numbers may differ from published reports using final data. See Technical Notes.,**,651,2995919,35.3,1.625,
+VT,2015,January,12 month-ending,Number of Drug Overdose Deaths,76,100,0,Vermont,Numbers may differ from published reports using final data. See Technical Notes.,**,77,626042,65.1,0.01,
+VA,2015,January,12 month-ending,Number of Drug Overdose Deaths,959,100,0.037846532,Virginia,Numbers may differ from published reports using final data. See Technical Notes.,**,966,8382993,196,0.937,
+WA,2015,January,12 month-ending,Number of Drug Overdose Deaths,996,100,0.007620935,Washington,Numbers may differ from published reports using final data. See Technical Notes.,**,999,7170351,100.6,1.292,
+WV,2015,January,12 month-ending,Number of Drug Overdose Deaths,644,100,0.156451316,West Virginia,Numbers may differ from published reports using final data. See Technical Notes.,**,660,1844128,76.1,-0.096,
+WI,2015,January,12 month-ending,Number of Drug Overdose Deaths,849,100,0.065142722,Wisconsin,Numbers may differ from published reports using final data. See Technical Notes.,**,858,5771337,88.1,0.295,
+WY,2015,January,12 month-ending,Number of Drug Overdose Deaths,105,100,0,Wyoming,Numbers may differ from published reports using final data. See Technical Notes.,**,106,586107,6,0.785,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
